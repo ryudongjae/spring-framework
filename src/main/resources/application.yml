@@ -1,0 +1,23 @@
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: my-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  application:
+    name: spring-framework
+  datasource:
+    url: jdbc:mysql://localhost:3306/mega_express?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    username: root
+    password: root0070
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  security:
+    user:
+      name: ryu
+      password: 7b0ec6a2-98c7-417e-872b-b41c6f90549f
