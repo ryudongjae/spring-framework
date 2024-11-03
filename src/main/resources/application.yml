@@ -12,7 +12,7 @@ spring:
   application:
     name: spring-framework
   datasource:
-    url: jdbc:mysql://localhost:3306/mega_express?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Seoul&useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
     username: root
     password: root0070
     driver-class-name: com.mysql.cj.jdbc.Driver
